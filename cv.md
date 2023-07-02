@@ -32,9 +32,8 @@ console.log('Hello World');
 
 - University: Belarusian National Technical University
 - Courses:
-
-* [3D Artist](https://polygon.by/3d-artist/)
-* [VFX artist](https://fungi.by/all)
+  - [3D Artist](https://polygon.by/3d-artist/)
+  - [VFX artist](https://fungi.by/all)
 
 ### English
 
