@@ -14,7 +14,7 @@
         .photoContainer {
             min-width: 35%;
             width: 35%;
-            background-color: #9f779f;
+            background-color: #d8acc5;
 
 
             .avatar {
@@ -49,31 +49,96 @@
         display: flex;
         height: 100%;
 
+        .mainHeader {
+            /* text-align: center; */
+            padding: 20px 0px 5px 0px;
+            font-weight: 600;
+            font-size: 20px;
+            border-bottom: 3px solid #d8acc5;
+        }
+
         .mainLeft {
             background-color: #eaeaea;
             width: 35%;
             height: 100%;
-            /* padding: px; */
-
-            .listContacts {
-                list-style: none;
-                margin: 0 auto;
-                padding-left: 15px;
-               
-                .iconContacts{
-                    width: 40px;
-                    height: 40px;
-                    vertical-align:middle;
-                }                                
+            
+                          
+            .listUnit {
+                padding-bottom: 10px;
             }
             
+            .listContactsContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                                           
+                .listContacts {
+                    list-style: none;
+                    padding: 0; 
+                    margin-bottom: 0;
+                                      
+                    .itemContacts {
+                        padding: 0px 0px 10px 0px; 
+
+                        .iconContacts{
+                            width: 30px;
+                            height: 30px;
+                            vertical-align:middle;
+                        }                                
+                    }
+                }
+            }
+            .educationContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0px 50px 0px 50px;
+                
+                .listEducation {
+                    list-style: none;
+                    margin-bottom: 0;
+
+
+                    .itemEducation {
+                    display: inline;
+                    }
+                    
+                    .rectangleHeaderEducation {
+                        background-color: #d8acc5;
+                        border: 2px solid #d8acc5;
+                        
+                    }
+                    
+                }
+
+
+            }
+          
+            .experienceContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0px 50px 0px 50px;
+
+                .listExperience {
+                list-style: none;
+                margin-bottom: 0; 
+                }
+            }
         }
+        
 
         .mainRight {
             width: 65%;
             height: 100%;
+
+            .aboutmeContainer {
+                padding-left: 30px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+            
         }
     }
 }
-
-
