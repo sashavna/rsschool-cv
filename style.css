@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url("./assets/fonts/OpenSans-Regular.ttf");
+}
+
+.cvBody {
+    max-width: 1200px;
+    min-width: 600px;
+    margin: 0 auto;
+    font-family: OpenSans;
+    box-shadow: 5px 5px 20px rgb(235, 233, 233);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    .headerContainer {
+        display: flex;
+        
+        .photoContainer {
+            min-width: 35%;
+            width: 35%;
+            background-color: #d8acc5;
+
+
+            .avatar {
+                width: 80%;
+                border-radius: 50%;
+                padding: 40px;
+            }
+        }
+        
+        .nameContainer {
+            width: 65%;
+            padding-left: 50px;
+            margin: auto 0;
+            
+            .headerTitle {
+                 font-weight: 600;
+                 font-size: 60px;
+                 margin: 0;
+                 
+            }
+            
+            .headerSubtitle {
+                font-weight: 600;
+                font-size: 25px;
+                margin: 0;
+                padding-top: 10px;
+            }
+        }
+    }
+
+    .mainContent {
+        display: flex;
+        height: 100%;
+
+        .mainHeader {
+            padding: 20px 0px 5px 0px;
+            font-weight: 600;
+            font-size: 20px;
+            border-bottom: 3px solid #d8acc5;
+        }
+
+        .mainLeft {
+            background-color: #eaeaea;
+            width: 35%;
+            
+            .listUnit {
+                padding-bottom: 10px;
+            }
+            
+            .listContactsContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                                           
+                .listContacts {
+                    list-style: none;
+                    padding: 0; 
+                    margin-bottom: 0;
+                                      
+                    .itemContacts {
+                        padding: 0px 0px 10px 0px; 
+
+                        .iconContacts{
+                            width: 30px;
+                            height: 30px;
+                            vertical-align:middle;
+                        }                                
+                    }
+                }
+            }
+            .educationContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0px 50px 0px 50px;
+                
+                .listEducation {
+                    list-style: none;
+                    margin-bottom: 0;
+
+
+                    .itemEducation {
+                    display: inline;
+                    }
+                    
+                    .rectangleHeaderEducation {
+                        background-color: #d8acc5;
+                        border: 2px solid #d8acc5;
+                        
+                    }  
+                }
+            }
+          
+            .experienceContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0px 50px 0px 50px;
+
+                .listExperience {
+                list-style: none;
+                margin-bottom: 0; 
+                }
+            }
+        }
+        
+        .mainRight {
+            width: 65%;
+            height: 100%;
+
+            .aboutmeContainer {
+                padding-left: 30px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                .textAboutme {
+                    padding-top: 15px;
+                }
+            }
+          
+            .skillsContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-left: 30px;
+
+                .itemsSkillsContainer {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 400px;
+
+                    
+                    .listSkills {
+                        list-style: none;
+                        padding-left: 0px;
+                        margin-top: 15px;
+                    }
+                }
+            }
+        
+            .CodeContainer {
+                display: flex;
+                flex-direction: column;
+                padding-left: 30px;
+                align-items: center;
+
+                .codeStyle {
+                    background-color: #eaeaea;
+                }
+            }
+            
+            .EnglishContainer {
+                display: flex;
+                flex-direction: column;
+                padding-left: 30px;
+                align-items: center;
+
+                .textEnglish {
+                     padding: 15px 0px 15px 0px; 
+                }
+            }
+        }
+    }
+
+    .footer {
+        background-color:#d8acc5;
+        padding: 10px 45px ;
+
+        .footerContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .MyGithub {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                color: black;
+                font-weight: 600;
+
+                .iconGithub {
+                    width: 50px;
+                    padding-right: 10px;
+                }
+            }
+
+            .iconRsschol {
+                width: 90px;
+            }
+    
+            .yearText {
+                font-weight: 600;
+                font-size: 16px;  
+            }
+        }
+    }
+}
+
+.listSkills li {
+    padding-top: 10px;
+}
