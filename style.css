@@ -1,14 +1,17 @@
 @font-face {
     font-family: 'OpenSans';
     src: url("./assets/fonts/OpenSans-Regular.ttf");
-    
 }
+
 .cvBody {
     max-width: 1200px;
     min-width: 600px;
     margin: 0 auto;
     font-family: OpenSans;
     box-shadow: 5px 5px 20px rgb(235, 233, 233);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
     .headerContainer {
         display: flex;
@@ -24,7 +27,6 @@
                 border-radius: 50%;
                 padding: 40px;
             }
-            
         }
         
         .nameContainer {
@@ -47,12 +49,12 @@
             }
         }
     }
+
     .mainContent {
         display: flex;
         height: 100%;
 
         .mainHeader {
-            /* text-align: center; */
             padding: 20px 0px 5px 0px;
             font-weight: 600;
             font-size: 20px;
@@ -62,9 +64,7 @@
         .mainLeft {
             background-color: #eaeaea;
             width: 35%;
-            /* height: 100%; */
             
-                          
             .listUnit {
                 padding-bottom: 10px;
             }
@@ -109,11 +109,8 @@
                         background-color: #d8acc5;
                         border: 2px solid #d8acc5;
                         
-                    }
-                    
+                    }  
                 }
-
-
             }
           
             .experienceContainer {
@@ -129,11 +126,9 @@
             }
         }
         
-
         .mainRight {
             width: 65%;
             height: 100%;
-            /* padding-left: 20px; */
 
             .aboutmeContainer {
                 padding-left: 30px;
@@ -162,7 +157,6 @@
                         list-style: none;
                         padding-left: 0px;
                         margin-top: 15px;
-                        
                     }
                 }
             }
@@ -189,7 +183,6 @@
                 }
             }
         }
-        
     }
 
     .footer {
@@ -204,6 +197,9 @@
             .MyGithub {
                 display: flex;
                 align-items: center;
+                text-decoration: none;
+                color: black;
+                font-weight: 600;
 
                 .iconGithub {
                     width: 50px;
@@ -213,7 +209,6 @@
 
             .iconRsschol {
                 width: 90px;
-                
             }
     
             .yearText {
@@ -221,12 +216,9 @@
                 font-size: 16px;  
             }
         }
-        
-
     }
 }
 
-.listSkills li{
+.listSkills li {
     padding-top: 10px;
-    /* margin-top: 0; */
 }
