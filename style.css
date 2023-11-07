@@ -12,10 +12,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
     .headerContainer {
         display: flex;
-        
+
         .photoContainer {
             min-width: 35%;
             width: 35%;
@@ -28,19 +28,19 @@
                 padding: 40px;
             }
         }
-        
+
         .nameContainer {
             width: 65%;
             padding-left: 50px;
             margin: auto 0;
-            
+
             .headerTitle {
                  font-weight: 600;
                  font-size: 60px;
                  margin: 0;
-                 
+
             }
-            
+
             .headerSubtitle {
                 font-weight: 600;
                 font-size: 25px;
@@ -64,29 +64,29 @@
         .mainLeft {
             background-color: #eaeaea;
             width: 35%;
-            
+
             .listUnit {
                 padding-bottom: 10px;
             }
-            
+
             .listContactsContainer {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                                           
+
                 .listContacts {
                     list-style: none;
-                    padding: 0; 
+                    padding: 0;
                     margin-bottom: 0;
-                                      
+
                     .itemContacts {
-                        padding: 0px 0px 10px 0px; 
+                        padding: 0px 0px 10px 0px;
 
                         .iconContacts{
                             width: 30px;
                             height: 30px;
                             vertical-align:middle;
-                        }                                
+                        }
                     }
                 }
             }
@@ -95,7 +95,7 @@
                 flex-direction: column;
                 align-items: center;
                 padding: 0px 50px 0px 50px;
-                
+
                 .listEducation {
                     list-style: none;
                     margin-bottom: 0;
@@ -104,15 +104,15 @@
                     .itemEducation {
                     display: inline;
                     }
-                    
+
                     .rectangleHeaderEducation {
                         background-color: #d8acc5;
                         border: 2px solid #d8acc5;
-                        
-                    }  
+
+                    }
                 }
             }
-          
+
             .experienceContainer {
                 display: flex;
                 flex-direction: column;
@@ -121,11 +121,11 @@
 
                 .listExperience {
                 list-style: none;
-                margin-bottom: 0; 
+                margin-bottom: 0;
                 }
             }
         }
-        
+
         .mainRight {
             width: 65%;
             height: 100%;
@@ -140,7 +140,7 @@
                     padding-top: 15px;
                 }
             }
-          
+
             .skillsContainer {
                 display: flex;
                 flex-direction: column;
@@ -152,7 +152,7 @@
                     justify-content: space-between;
                     width: 400px;
 
-                    
+
                     .listSkills {
                         list-style: none;
                         padding-left: 0px;
@@ -160,7 +160,7 @@
                     }
                 }
             }
-        
+
             .CodeContainer {
                 display: flex;
                 flex-direction: column;
@@ -171,7 +171,7 @@
                     background-color: #eaeaea;
                 }
             }
-            
+
             .EnglishContainer {
                 display: flex;
                 flex-direction: column;
@@ -179,7 +179,7 @@
                 align-items: center;
 
                 .textEnglish {
-                     padding: 15px 0px 15px 0px; 
+                     padding: 15px 0px 15px 0px;
                 }
             }
         }
@@ -210,10 +210,10 @@
             .iconRsschol {
                 width: 90px;
             }
-    
+
             .yearText {
                 font-weight: 600;
-                font-size: 16px;  
+                font-size: 16px;
             }
         }
     }
