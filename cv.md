@@ -48,8 +48,8 @@ export class Position {
 - University: Belarusian National Technical University
 - Courses:
   - [3D Artist](https://polygon.by/3d-artist/)
-  - [VFX artist](https://fungi.by/all)
+  - [VFX artist](https://fungi.by/)
 
 ### English
 
-- A2-B1 (In the process  of learning English, I practise my skills with my English tutor)
+- B1-B2 (In the process  of learning English, I practise my skills with my English tutor)
