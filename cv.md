@@ -2,7 +2,6 @@
 
 ### My Contacts
 
-
 - E-mail: sashavna99@gmail.com
 - Telegram: @sashavna
 - GitHub: sashavna
@@ -49,6 +48,7 @@ export class Position {
 - Courses:
   - [3D Artist](https://polygon.by/3d-artist/)
   - [VFX artist](https://fungi.by/)
+  - [Graphic designer](https://cidrdesign.com/)
 
 ### English
 
