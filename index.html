@@ -65,14 +65,7 @@
       <div class="mainRight">
         <div class="aboutmeContainer">
           <div class="mainHeader">About me</div>
-          <div class="textAboutme">Since my last year at university and during my work,
-            I have been trying to find what I want to do and, as
-            a result, change my job. I studied different directions in
-            design, but after a long stagnation, I am trying a
-            completely new area for myself - programming. I think
-            that my strengths are assiduity and responsibility, I am
-            not afraid of learning new things. So my goal is to find
-            a hobby-job that I will really enjoy.</div>
+          <div class="textAboutme">I graduated from Belarusian National Technical University by specialty design-engineer. I worked as a graphic designer. Since my last year at university, during my work and now, I have been trying to find what I want to do and, as a result, change my job. I studied different directions in design, but after a long stagnation, I am trying a completely new area for myself - programming. I think that my strengths are assiduity and responsibility, I am not afraid of learning new things. So my goal is to find a hobby-job that I will really enjoy.</div>
         </div>
         <div class="skillsContainer">
           <div class="mainHeader">Skills</div>
@@ -81,12 +74,15 @@
               <ul class="listSkills">
                 <li>HTML(basic)</li>
                 <li>CSS(basic)</li>
+                <li>JS(basic)</li>
+                <li>React</li>
               </ul>
             </div>
             <div>
               <ul class="listSkills">
                 <li>Adobe Photoshop</li>
                 <li>3ds Max</li>
+                <li>Illustrator</li>
               </ul>
             </div>
         </div>
@@ -95,13 +91,26 @@
           <div class="mainHeader">Code Examples</div>
 <pre class="codeStyle">
  <code>
- console.log('Hello World');
+    export class Position {
+        constructor(x, y){
+            this.x = x
+            this.y = y
+        }
+
+        equals(otherPosition){
+            if(!otherPosition) return false
+            return this.x === otherPosition.x && this.y === otherPosition.y
+        }
+        clone(){
+            return new Position(this.x, this.y)
+        }
+    }
  </code>
 </pre>
         </div>
         <div class="EnglishContainer">
           <div class="mainHeader">English</div>
-          <div class="textEnglish">A2-B1 (In the process  of learning English, I practise my skills with my English tutor)</div>
+          <div class="textEnglish">B1-B2 (In the process  of learning English, I practise my skills with my English tutor)</div>
         </div>
       </div>
     </main>
@@ -118,7 +127,7 @@
           <img src="./assets/img/rs_school_js.svg" alt="icon Rsschool" class="iconRsschol">
         </a>
       </div>
-      <div class="yearText">© 2023</div>
+      <div class="yearText">© 2024</div>
      </div>
     </footer>
   </body>
